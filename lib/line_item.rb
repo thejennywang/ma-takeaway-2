@@ -3,7 +3,7 @@ class LineItem
    @dish, @quantity = dish, quantity
   end
 
-  attr_accessor :dish, :quantity
+  attr_reader :dish, :quantity
 
   def total
     @dish.price * quantity
