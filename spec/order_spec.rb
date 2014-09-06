@@ -1,9 +1,9 @@
 require 'all_files'
 
 describe 'Order' do
-  let (:order)       { Order.new          }
+  let (:order)  { Order.new               }
   let (:burger) { Dish.new(name='burger') }
-  let (:fries) { Dish.new(name='fries')   }
+  let (:fries)  { Dish.new(name='fries')  }
   let (:item_1) { LineItem.new(burger, 2) }
   let (:item_2) { LineItem.new(fries, 2)  }
 
