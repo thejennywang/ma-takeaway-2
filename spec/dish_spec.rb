@@ -1,4 +1,4 @@
-require 'dish'
+require 'all_files'
 
 describe 'Dish' do
   it 'should be created with a price' do

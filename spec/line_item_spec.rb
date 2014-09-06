@@ -1,5 +1,4 @@
-require 'line_item'
-require 'dish'
+require 'all_files'
 
 describe 'Line Item' do
     let (:dish) { Dish.new(price=5) }
