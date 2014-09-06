@@ -4,5 +4,5 @@ class Dish
     @name = name
   end
 
-  attr_reader :price, :name
+  attr_accessor :price, :name
 end
