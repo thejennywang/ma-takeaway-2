@@ -7,8 +7,8 @@ describe 'Dish' do
   end
 
   it 'should be created with a name' do
-    dish = Dish.new
-    expect(dish.name).to eq 'dishywishy'
+    dish = Dish.new(name='a name')
+    expect(dish.name).to eq 'a name'
   end
 
   it 'should be able to have a different name' do
