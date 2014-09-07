@@ -1,5 +1,8 @@
 #How to run:
 
+$ irb
+
+
 require './lib/takeaway'
 
 
